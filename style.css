@@ -1,123 +1,345 @@
-.bg-edit{
-    background-color:rgb(0, 0, 0);
-    height:100vh;
-    width:100vw;
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
-    align-items: center;
-}
-.cal-container{
-    background-color: rgb(173, 173, 95);
-    height:600px;
-    width:400px;
-    border-radius:20px;
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
-    align-items: center;
+@media (orientation:portrait){
 
-}
-.sub-cal-container{
-    background-color: blanchedalmond;
-    height:550px;
-    width:350px;
-    border-radius:10px;
+   .first_part{
+      background-image: url("http://images5.alphacoders.com/364/364497.jpg");
+      height:100vh;
+     
+      background-size: cover;
+   }
+   .nav_tittle{
+      color:white;
+   }
+   .nav_features{
+      color:white;
+      text-decoration: dashed;
+      padding-left: 20px;
+   }
+   .navbar-toggler{
+      color:white;
+      background-color: dark;
+   }
+   .navbar-toggler-icon{
+    border-color: white;
+    background-color: white;
+   }
+   .icon-edit{
+    height:30px;
+    width:40px;
+    border-radius: 100px;
+   }
+   .log_in_section_container{
+    height:200px;
+    width:300px;
+    border-style:solid;
+    border-width:0px;
+   margin-top:50px;
     
-}
-.screen{
-    background-color: rgb(138, 209, 217);
-    height:70px;
-    display:flex;
-    flex-direction:row;
-    justify-content: flex-end;
-    align-items: flex-end;
-    border-radius:10px;
-    margin-left:5%;
-    margin-right:5%;
-    margin-top:1%;
-}
-.numbers-container{
-    display:flex;
-    height:240px;
-    flex-direction:column;
-    padding:20px;
-  justify-content: space-between;
-}
-.button{
-    background-color: rgb(56, 53, 53);
-    height:40px;
-    width:80px;
-    border-radius:10px;
-    align-items: center;
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
-    margin:10px;
-}
-.text-edit{
+    padding:5px;
+    text-align: center;
+   }
+   .heading-edit{
+    color:rgb(97, 206, 204);
+    font-family:roboto;
+    font-size:40px;
+    padding-top:10px;
+   }
+   .sign_in_btn{
     color:white;
-   
-    font-size:15px;
-    font-weight:bold;
-}
-.row{
+    background-color: rgb(51, 99, 150);
+    margin:10px;
+    font-size:13px;
+    height:36px;
+    padding-right:20px;
+    padding-left:20px;
+    border-width:0px;
+    border-radius: 6px;
+   }
+   .log_in_btn{
+    color:white;
+    background-color: rgb(118, 89, 44);
+    margin:10px;
+    font-size:13px;
+    height:36px;
+    padding-right:20px;
+    padding-left:20px;
+    border-width:0px;
+    border-radius: 6px;
+   }
+   .second_part{
+    background-color: blanchedalmond;
+    height:100%;
+   padding:20px;
     display:flex;
     flex-direction: row;
-    justify-content: space-between
-}
-.button-edit{
-    height:30px;
-    width:70px;
+    justify-content: center;
+   }
+   .card_1{
+    background-color: brow;
+    height:260px;
+    width:90vw;
+    margin-top:20px;
+    margin:10px;
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+   }
+   .img-edit{
+    height:200px;
+    width:40vw;
     border-radius: 10px;
-    background-color: rgb(149, 231, 216);
+    
+   }
+   .text-card{
+    padding:10px;
     text-align: center;
-    font-size:15px;
-    border-width: 0px;margin:10px;
-}
-.button-container{
+   }
+   .third_part{
+    background-color: rgba(16, 25, 35, 0.911);
+    
+   }
+   .pricing_text_edit{
+    color:rgb(201, 201, 201);
+    font-family: roboto;
+    font-size:40px;
+    padding-top:20px;
+
+   }
+   .cost_para{
+    color:white;
+    font-family: roboto;
+    font-size:20px;
+    
+    
+    
+   }
+   .cost_card_container{
+    
+    
+   
+    background-color: yello;
+    
     display:flex;
-    flex-direction:row;
-    justify-content: flex-end;
-    margin:10px;
-    margin-right:20px;
-    height:80px;
-    width:80px;
-}
-.button-container1{
-    display:flex;
-    flex-direction:row;
-    justify-content: flex-start;
-    margin:10px;
-    margin-right:auto;
-    height:40px;
-    width:80px;
-}
-.button-container2{
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:4px;
+   }
+   .card_container_price{
+    
+    width:200px;
+    background-color:transparent;
+    border-width:1px;
+    margin:15px;
+    border-width:2px;
+    border-style:solid;
+    background-color: aqua;
+    border-color: rgb(59, 152, 152);
+    border-radius:10px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top:4px;
+   }
+   .third_flex_edit{
     display:flex;
     flex-direction:row;
     justify-content: center;
-    margin:10px;
-    margin-right:auto;
-    height:40px;
-    width:80px;
-}
-.lower-card{
+   }
+   .price_card_flexing{
+   
     display:flex;
+    background-color: brow;
     flex-direction:row;
-    justify-content: space-between;
-    width:100%;
-    height:30px;
-}
-.screen{
-    margin-top:5px;
-}
-.edit-input{
-    background-color: transparent;
-    height:50px;
+    flex-wrap: wrap;
+   justify-content: flex-start;
+   padding-left:10px;
+   }
+   .button-submist-Edit{
+    color:white;
+    font-family:roboto;
+    font-size:13px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color:black;
     border-width:0px;
-    margin:1px;
-    border-radius:10px;
-    font-size:25px;
-    text-align: end;
+    border-radius: 5px;
+    margin-bottom:5px;
+   }
+}
+
+@media (orientation:landscape){
+    .first_part{
+        background-image: url("http://images5.alphacoders.com/364/364497.jpg");
+        height:100vh;
+        width:100vw;
+        background-size: cover;
+       
+    }
+    .nav_tittle{
+        color:white;
+    }
+    .nav_features{
+        color:white;
+        text-decoration: dashed;
+        padding-left: 20px;
+    }
+    .navbar-toggler{
+        color:white;
+        background-color: dark;
+    }
+    .landscape_edit{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .icon-edit{
+        height:30px;
+        width:40px;
+        border-radius: 100px;
+       }
+       .log_in_section_container{
+        height:200px;
+        width:300px;
+        border-style:solid;
+        border-width:0px;
+       margin-top:9%;
+        border-color: beige;
+        padding:5px;
+        text-align: center;
+       }
+       .heading-edit{
+        color:rgb(97, 206, 204);
+        font-family:roboto;
+        font-size:40px;
+        padding-top:10px;
+       }
+       .sign_in_btn{
+        color:white;
+        background-color: rgb(51, 99, 150);
+        margin:10px;
+        font-size:13px;
+        height:36px;
+        padding-right:20px;
+        padding-left:20px;
+        border-width:0px;
+        border-radius: 6px;
+       }
+       .log_in_btn{
+        color:white;
+        background-color: rgb(118, 89, 44);
+        margin:10px;
+        font-size:13px;
+        height:36px;
+        padding-right:20px;
+        padding-left:20px;
+        border-width:0px;
+        border-radius: 6px;
+       }
+       .landscape_logIN{
+        display:flex;
+        flex-direction: row;
+        justify-content: flex-start;
+       
+       }
+       .second_part{
+        background-color: blanchedalmond;
+        
+       }
+       .card_1{
+        background-color: brow;
+        height:260px;
+        width:90vw;
+        margin-top:20px;
+        margin:10px;
+        padding:20px;
+        display:flex;
+        flex-direction: row;
+       }
+       .img-edit{
+        height:200px;
+        width:20vw;
+        border-radius: 10px;
+        
+       }
+       .text-card{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        padding:10px;
+        text-align: center;
+       }
+       .third_part{
+        background-color: rgba(16, 25, 35, 0.911);
+        
+       }
+       .pricing_text_edit{
+        color:rgb(201, 201, 201);
+        font-family: roboto;
+        font-size:40px;
+        padding-top:20px;
+         text-align: center;
+       }
+       .cost_para{
+        color:white;
+        font-family: roboto;
+        font-size:20px;
+        text-align: center;
+        
+        
+       }
+       .cost_card_container{
+        
+        
+       
+        background-color: yello;
+        
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding:4px;
+       }
+       .card_container_price{
+        
+        width:200px;
+        background-color:transparent;
+        border-width:1px;
+        margin:15px;
+        border-width:2px;
+        border-style:solid;
+        background-color: aqua;
+        border-color: rgb(59, 152, 152);
+        border-radius:10px;
+        flex-wrap: wrap;
+        text-align: center;
+        padding-top:4px;
+       }
+       .third_flex_edit{
+        display:flex;
+        flex-direction:row;
+        justify-content: center;
+       }
+       .price_card_flexing{
+       
+        display:flex;
+        background-color: brow;
+        flex-direction:row;
+        flex-wrap: wrap;
+       justify-content: flex-start;
+       padding-left:10px;
+       }
+       .button-submist-Edit{
+        color:white;
+        font-family:roboto;
+        font-size:13px;
+        padding-left:20px;
+        padding-right:20px;
+        padding-top:5px;
+        padding-bottom:5px;
+        background-color:black;
+        border-width:0px;
+        border-radius: 5px;
+        margin-bottom:5px;
+       }
 }
